@@ -1,0 +1,248 @@
+*{
+  font-family: 'Playfair Display SC', serif;
+  font-family: 'Rowdies', sans-serif;
+}
+
+
+body{
+  background-image: url('../images/1.jpg');
+  font-family: 'Playfair Display SC', serif;
+  font-family: 'Rowdies', sans-serif;
+}
+
+h1 {
+    padding-top: 10px;
+  }
+  
+  #container {
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Rowdies', sans-serif;
+    padding: 10px;
+    margin: 2% 30%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid #3a3131;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgba(249, 170, 137, 0.8);
+  }
+
+  #container1{
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Rowdies', sans-serif;
+    padding: 10px;
+    margin: 2% 25%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid #3a3131;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgba(249, 170, 137, 0.8);
+  }
+  
+  #history {
+    padding: 10px;
+    width:40%;
+    margin: 2% 30%;
+    border: 2px solid #3a3131;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgba(249, 170, 137, 0.8);
+  }
+  
+  #leaderboard{
+    padding: 10px;
+    width:40%;
+    margin: 2% 30%;
+    border: 2px solid #3a3131;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgba(249, 170, 137, 0.8);
+  }
+
+  ul {
+    text-align: left;
+    padding: 5px;
+  }
+ 
+.delete{
+  margin-right: 2px;
+  float: right;
+  height: 100%;
+  font-size: 15px;
+  background-color: #3a3131;
+  color: aliceblue;
+  text-align: center;
+  justify-content: center;
+}
+.edit{
+  margin-right: 2px;
+  float: right;
+  height: 100%;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+li{
+  padding-top: 5px;
+  margin: 15px;
+}
+
+input{
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 5px;
+  height:35px;
+  border: none;
+}
+
+select{
+  width: 100%;
+  height:35px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+#header-1{
+  width: 100%;
+  height: 80px;
+  background-color: rgba(249, 170, 137, 0.8);
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#rzp-button-1{
+  float: right;
+  background-color: #dbd51d;
+  border:none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 5px;
+  margin: 10px;
+}
+
+#logout{
+  float: right;
+  background-color: #f84949;
+  border:none;
+  border-radius: 5px;
+  padding: 5px;
+  color:white;
+  margin-top: 10px;
+}
+
+#header-img{
+  height:70px;
+  width:65px;
+}
+
+#premium-message{
+  display: block;
+  font-size: 30px;
+}
+
+#lead-button{
+  background-color: #f84949;
+  border: none;
+  border-radius: 5px;
+  color: azure;
+  margin-left: 30px;
+  padding: 5px;
+}
+
+#show-report
+{
+  background-color: #f84949;
+  border: none;
+  border-radius: 5px;
+  color: azure;
+  margin-left: 30px;
+  padding: 5px;
+}
+
+#back-button{
+  background-color: #f84949;
+  border: none;
+  border-radius: 5px;
+  color: azure;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#download-file{
+  background-color: #f84949;
+  border: none;
+  border-radius: 5px;
+  color: azure;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#list1{
+  justify-content: space-evenly;
+}
+
+.items span{
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+#leader-table th,td{
+  width: 100%;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  justify-content: space-evenly;
+}
+
+#monthly-table{
+  width: fit-content;
+}
+
+
+#total2, #total1{
+  float: right;
+}
+
+#buttons-paganating{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#buttons-paganating button{
+  background-color: #f84949;
+  color: aliceblue;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: none;
+  width: max-content;
+  border-radius: 5px;
+}
+
+#buttons-paganating button:hover{
+  background-color: #f62a2a;
+}
+
+#lines{
+  width:fit-content;
+  margin-top: 5px;
+  top: 0;
+}
+
+#linesToShow{
+  background-color: #f84949;
+  color: aliceblue;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: none;
+  width: max-content;
+  border-radius: 5px;
+}
+
+#linesToShow:hover{
+  background-color: #f62a2a;
+}
